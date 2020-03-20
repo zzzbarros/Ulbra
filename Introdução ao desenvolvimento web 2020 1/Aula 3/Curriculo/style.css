@@ -1,0 +1,189 @@
+body {
+    padding: 25px;
+    margin: 0;
+    background: #e5ecec;
+    text-align: center;
+    font-family: "roboto";
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 5em;
+}
+
+#header h1 {
+    background: #004949;
+    border: 2px solid #e5ecec;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+}
+
+img {
+    width: 250px;
+    border-radius: 50%;
+    display: inline;
+    border: 2px solid #195b5b;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+#box-information {
+    clear: both;
+    display: inline-block;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+#header .box-title {
+    float: left;
+    padding: 10px;
+    font-weight: bold;
+    color: #195b5b;
+}
+
+#header .box-content {
+    float: left;
+    padding: 10px;
+}
+
+#box-goal,
+#box-formation {
+    width: 100%;
+    margin-bottom: 3.5em;
+}
+
+.push-content {
+    padding: 1em 4em;
+    width: calc(100% - 8em);
+    text-align: justify;
+}
+
+.t_titles {
+    display: inline-block;
+    width: calc(100% - 40px);
+    padding: 20px;
+}
+
+.t_titles p {
+    display: inline;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.t_titles hr {
+    float: right;
+    width: 85%;
+    border: 1px solid #004949
+}
+
+.box-course {
+    margin: 1em;
+}
+
+.box-course h3,
+p {
+    margin: 2px;
+}
+
+#box-overall {
+    width: 50%;
+    min-width: 650px;
+    background: #00000030;
+    height: 110vh;
+    color: white;
+    float: left;
+    margin-bottom: 2em;
+}
+section {
+    padding: 5em;
+    margin-bottom: 1em;
+}
+#box-overall section {
+    height: calc(33% - 12.1em);
+}
+section h2 {
+    text-align: left;
+    text-transform: uppercase;
+}
+.title_ {
+    display: inline-block;
+    float: left;
+    min-width: 35%;
+}
+.content_ {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+.skills ul {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.3em;
+}
+.skills li {
+    padding: 5px;
+    width: max-content;
+}
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #4c7f7f;
+    margin: 0em 0em 1em 0.7em;
+    float: left;
+}
+.skills p {
+    display: inline;
+    color: #efefef;
+    font-size: 0.9em;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.division {
+    float: left;
+    margin: 0em 1em;
+    height: 110vh;
+    width: 1em;
+    background: #004949;
+}
+#box-xp-pro {
+    width: calc(50% - 3em);
+    height: auto;
+    float: left;
+}
+#box-xp-pro h2 {
+    text-transform: uppercase;
+    padding: 1em;
+    background: #004949;
+    margin: 0;
+    color: #e5ecec;
+}
+#box-xp-pro h3 {
+    margin: 5px;
+    font-style: italic;
+}
+#box-xp-pro span {
+    color: #6f6e6e;
+    font-weight: 100;
+}
+#box-xp-pro section {
+    text-align: justify;
+    margin: 0;
+    padding-bottom: 0em;
+}
+#rdp {
+    background: #46464614;
+    height: 50px;
+    width: 100%;
+    clear: both;
+}
+#rdp h4 {
+    text-decoration: line-through;
+    color: white;
+    padding: 1em;
+}
