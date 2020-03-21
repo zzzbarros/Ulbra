@@ -1,0 +1,208 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #e0e0e0;
+}
+
+#header {
+    width: calc(100% - 20px);
+    background: #000;
+    padding: 10px;
+    padding-bottom: 0;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px 2px #9a9a9a;
+}
+
+#header h2 {
+    text-align: left;
+    margin-bottom: 3em;
+    margin-left: 1em;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    font-size: 1em;
+}
+
+a, a:visited, a:active, a:hover {
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    margin: 0em 1.5em;
+}
+
+.action {
+    border-bottom: 6px solid white;
+}
+/* FIM DO CABEÇALHO 
+-------------------------------------------------
+ INICIO PARTIDAS */
+
+section {   
+    width: 55vw;
+    margin: auto;
+    box-shadow: 0px 4px 8px 2px #9a9a9a;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#table-match, #table-classification {
+    display: grid;
+    flex-direction: row;
+    width: 100%;
+    background-color: #E8E8E8;
+}
+
+.text-header p{
+    text-align: left;
+    margin: 1em;
+
+}
+
+#table-game {
+    margin-right: auto;
+    float: left;
+    width: 100%;
+    background-color: white;
+    display: grid;
+}
+
+.top-margin {
+    height: 10px;
+}
+
+.stop {
+    height: 2px;
+}
+
+.row-top {
+    width: 0.5%;
+    background-color: gray;
+}
+
+.score {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#table-game p {
+    margin: 0;
+}
+
+#game-score {
+    margin: auto;
+}
+
+.logo, .rmatch {
+    padding-top: 3px;
+    text-align: center;
+    width: 12%;
+}
+
+img {
+    width: 65%;
+}
+
+#team-score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+
+#icon {
+    text-align: center;
+    width: 3%;
+}
+
+#bottom-heigth {
+    height: 24px;
+}
+
+/* FIM DO PARTIDAS 
+-------------------------------------------------
+ INICIO CLASSIFICAÇÃO */
+
+ #table-classification {
+    background: white;
+}
+#table-classification thead {
+    background: #E8E8E8;
+}
+
+#table-classification tbody {
+    padding: 1em;
+}
+
+th {
+    padding-bottom: 5px;
+}
+
+#table-classification h3 {
+    margin: 1em;
+}
+
+#table-classification img {
+    width: 30%;
+}
+
+.club-align {
+    text-align: left;
+    padding-left: 1em;
+    width: 60%;
+}
+
+.line-team {
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.align-left {
+    text-align: left;
+} 
+
+.rmatch img {
+    width: 15%!important;
+}
+/* FIM DO CLASSIFICAÇÃO 
+-------------------------------------------------
+ INICIO ESTATISTICAS */
+
+.player-align {
+    width: 100%;
+    text-align: left;
+}
+
+.n-align {
+    width: 5em;
+    text-align: left;
+    padding-left: 1.5em;
+}
+
+.xleft {
+    float: left;
+}
+
+.xleft img {
+    width: 25%!important;
+}
+
+.xleft span {
+    font-size: 0.9em;
+    color: #858585;
+    bottom: 0.3em;
+    position: relative;
+}
+.pd {
+    padding-top: 8px;
+}
