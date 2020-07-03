@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+        <div class="container col-md-2">
+            <h2>Calculadora de IMC</h2>
+            <form>
+                <div class="form-group">
+                    <label for="fname">Nome</label>
+                    <input type="text" id="name" class="form-control">
+                    <label for="lname">Sexo</label>
+                    <select id="sex" class="form-control">
+                        <option>Homem</option>
+                        <option>Mulher</option>
+                    </select>
+                    <label for="lname">Peso</label>
+                    <input type="text" id="weight" class="form-control" onkeypress="return onlynumber();">
+                    <label for="lname">Altura</label>
+                    <input type="text" id="height" class="form-control" onkeypress="return onlynumber();">
+                </div>
+                <input type="button" value="Calcular" onclick="calc()" class="btn btn-primary">
+            </form> 
+        </div>
+        <div class="container col-md-4 bdzz">
+            <p id="resultado"></p>
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                    <th>Situação</th>
+                    <th>IMC em Adultos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Abaixo do peso </td>
+                        <td>abaixo de 18.5</td>
+                    </tr>
+                    <tr>
+                        <td>Peso ideal</td>
+                        <td>entre 18.5 e 25</td>
+                    </tr>
+                    <tr>
+                        <td>Acima do peso</td>
+                        <td>entre 25 e 30</td>
+                    </tr>     
+                    <tr>    
+                        <td>Obesidade</td>
+                        <td>acima de 30</td>
+                    </tr>
+                </tbody>
+              </table>
+        </div>
+</body>
+</html>

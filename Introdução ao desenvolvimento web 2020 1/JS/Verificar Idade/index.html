@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../IMC/style.css">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Verificar Idade</title>
+</head>
+<body>
+    <div class="container col-md-2">
+        <h2>Verificador de Maioridade</h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="yo">Digite as idades que deseja verificar:</label>
+                <input type="text" id="yo" class="form-control" onkeypress="return onlynumber();">
+            </div>
+            <input type="button" value="Verificar" onclick="verif()" class="btn btn-primary">
+        </form> 
+    </div>
+    <div class="container col-md-4 bdzz">
+        <p id="resultadoMaiores"></p>
+        <p id="resultadoMenores"></p>
+    </div>
+    <footer>
+        <h4><i class='fab fa-instagram'></i>  zzzbarros</h4>
+    </footer>
+</body>
