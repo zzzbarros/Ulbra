@@ -1,7 +1,6 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import Header from './components/Header/Header';
-import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 
 import Routes from './components/Routes';
@@ -11,7 +10,6 @@ function App() {
     <>
       <Router>
         <Header />
-        <Navbar />
         <Routes />
         <Footer />
       </Router>
